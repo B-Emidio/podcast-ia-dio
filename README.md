@@ -2,7 +2,7 @@
 
 ![Podcast cover](./assets/podcast-cover.jpeg)
 
-Projeto para testar o funcionamento de ferramentas de IA de diferentes mídias. Foram utilizadas diferentes técnicas de prompts para gerar mídias de texto, áudio e imagens e testar a capacidade de geração de contéudo dessas tecnologias.
+Projeto para testar o funcionamento de ferramentas de IA de diferentes mídias. Foram utilizadas diferentes técnicas de prompts para gerar mídias de texto, áudio e imagens e testar a capacidade de geração de conteúdo dessas tecnologias.
 
 ### Ferramentas Utilizadas
 
@@ -16,6 +16,12 @@ Projeto para testar o funcionamento de ferramentas de IA de diferentes mídias. 
 * Geração de roteiro baseado no título criado acima através de um refinamento de prompts delimitando características específicas para serem colocadas no texto, como informações e tonalidade
 * Geração de áudio do roteiro criado com `ElevenLabs`
 * Criação de imagens com `Ideogram` testando diferentes estilos, características e tamanhos
+
+### Como executar
+
+* Utilizar os prompts em `prompts/roteiro` no `ChatGPT`
+* Utilize o roteiro criado para geração de áudio com `ElevenLabs`
+* Gere a imagem de capa para o podcast com o prompt em `prompts/capa` com o `Ideogram`
 
 [ChatGPT.com]: https://chatgpt.com/
 [ChatGPT]: https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white
